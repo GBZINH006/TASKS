@@ -1,8 +1,8 @@
-const { Sequelize } = require("sequelize")
+const { Sequelize } = require("sequelize");
 
-const sequelize = new Sequelize('tasks_db', "root", "password", {
-    host: "localhost",
-    dialect: "mysql"
+const sequelize = new Sequelize("task", "root", "senai", {
+  host: "localhost",
+  dialect: "mysql"
 });
 
 module.exports = sequelize;
